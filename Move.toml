@@ -1,0 +1,15 @@
+[package]
+name = "Crypto-Tipping-Social-Network"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule='0x12a5e49f0316ea150afecccfb1e294d9b51588c744bf1914146b58acd8588a9a'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
